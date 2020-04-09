@@ -1,0 +1,13 @@
+2. Find a blog template
+
+https://themes.gohugo.io/theme/mainroad/
+
+https://themes.gohugo.io/theme/simpleit-hugo-theme/ (bundaki gibi banner-orta logo ve header menu konabilir)
+
+https://themes.gohugo.io/theme/ghostwriter/
+
+
+
+
+
+https://themes.gohugo.io//theme/bilberry-hugo-theme/about/
