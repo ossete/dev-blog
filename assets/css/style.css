@@ -1,23 +1,32 @@
 /*comment function*/
-/*RESET
---------------------------------------*/
+/*RESET - Eric Meyer
+----------------------------------------------------------------------------*/
 /*#region*/
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/*#endregion*/
 
 /*Make the box model border-box by default*/
 html {
   box-sizing: border-box;
 }
 
-/*#endregion*/
 
+/*BASIC (DEFAULT) FORMATTING
+----------------------------------------------------------------------------*/
+/*As we resetted everything we reformat the basic, general formatting. */
+/*
+For readability: use 4 spaces to separate sections, 2 spaces for sub-sections, 1 space for single elements
 
+html (root font-size)
+body (font-family, line-height, color, )
+h1,h2,h3
+a
+p
+input, button
+*/
 
-/*BASIC FORMATTING
---------------------------------------*/
-/*Make the box model border-box by default*/
 html {
-  font-size: 16px; /*rem olcusunu kullanmak icin bu tanimlama root'a (html'e) konulmali, body'ye degil*/ /*em parentla iliskilidir, rem root ile iliskilidir*/
+  font-size: 16px; /*to be able to use rem mesure this definition has to be in the root (html), and not body*/ /*em is related with parent, rem is related with root*/
   scroll-behavior: smooth;
 }
 body {
@@ -26,20 +35,25 @@ body {
   color: #212121;
   line-height: 1.5 /*it will use em, will take from the parents*/;
 }
-
-/*LINKS*/
+p {
+  margin-bottom: 1em;
+}
+/*LINKS
+--------------------------------------*/
 a {
   text-decoration: none;
-  color: coral;
+  color: #212121;
   outline: none;
   /*opacity: 0.5*/
-  transition: color 0.3s ease, /*opacity 1s ease*/ ;
+  transition: color 0.4s ease, /*opacity 1s ease*/ ;
 }
 a:hover{
-  color: darkred;
+  color: orangered;
+  background-color:rgba(255, 157, 100, 0.1 );
   /*opacity: 1;*/
 }
-/*FORM ELEMENTS*/
+/*FORM ELEMENTS
+--------------------------------------*/
 button {
   background: none;
   border: none;
@@ -48,22 +62,113 @@ input, input:focus {
   border: none;
   outline: none;
 }
-/*TITLES*/
+/*TITLES
+--------------------------------------*/
 h1,
-h2 {
+h2,
+h3 {
   font-weight: bold;
 }
-p {
-  margin-bottom: 1em;
+header > p {
+  text-transform: uppercase;
+}
+h1 {
+  font-size: 3rem;
 }
 
+
+
+/*
+footer > a > p {
+  color: white;
+  background-color: red;
+}
+*/
+
+
 /*HELPER CLASSES
+----------------------------------------------------------------------------*/
+/*TYPOGRAPHY
+--------------------------------------*/
+.external {
+  font-weight: bold;
+}
+.external > a{
+  color: white;
+  background-color: red;
+}
+.external > a:hover{
+  background-color: #212121;
+}
+.internal {
+  font-weight: bold;
+}
+.internal > a{
+  color: red;
+}
+.internal > a:hover{
+  color: #212121;
+}
+/*MARGINS
+--------------------------------------*/
+.m-a-1 {
+  margin: 1em;
+}
+.m-t-1 {
+  margin-top: 1em;
+}
+.m-b-1 {
+  margin-bottom: 1em;
+}
+.m-l-1 {
+  margin-left: 1em;
+}
+.m-r-1 {
+  margin-right: 1em;
+}
+
+/*PADDINGS
+--------------------------------------*/
+.p-a-1 {
+  padding: 1em;
+}
+.p-t-1 {
+  padding-top: 1em;
+}
+.p-b-1 {
+  padding-bottom: 1em;
+}
+.p-l-1 {
+  padding-left: 1em;
+}
+.p-r-1 {
+  padding-right: 1em;
+}
+
+
+/*FLEX
+--------------------------------------*/
+
+
+/*BACKGROUNDS
 --------------------------------------*/
 
 
 /*LAYOUT
---------------------------------------*/
-
+----------------------------------------------------------------------------*/
+header {
+  border-bottom: 0.1em #212121 solid;
+}
+article > a {
+  display: flex;
+}
+footer {
+  background-color: #252525;
+  color: darkgray;
+}
+article {
+  border-bottom: dotted #212121 0.07em;
+}
 
 /*MEDIA QUERIES
---------------------------------------*/
+----------------------------------------------------------------------------*/
