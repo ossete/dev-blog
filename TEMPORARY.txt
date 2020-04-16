@@ -1,7 +1,20 @@
+QUESTIONS
+-How can i fix the footer to end of page
+-Footer should has a full screen width
+-check the margin and padding below the line
+
+
+
+
+
+
+
+
 2. Find a blog template
 https://themes.gohugo.io/theme/ghostwriter/
 
-
+dev-blog2 olarak yap:
+https://themes.3rdwavemedia.com/demo/devblog/
 
 
 https://themes.gohugo.io/theme/mainroad/

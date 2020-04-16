@@ -32,7 +32,7 @@ html {
 body {
   font-size: 1rem;
   font-family:  sans-serif;
-  color: #212121;
+  color: #424242;
   line-height: 1.5 /*it will use em, will take from the parents*/;
 }
 p {
@@ -42,10 +42,11 @@ p {
 --------------------------------------*/
 a {
   text-decoration: none;
-  color: #212121;
+  color: #424242;
   outline: none;
   /*opacity: 0.5*/
   transition: color 0.4s ease, /*opacity 1s ease*/ ;
+  font-size: 	0.875em;
 }
 a:hover{
   color: orangered;
@@ -90,25 +91,27 @@ footer > a > p {
 ----------------------------------------------------------------------------*/
 /*TYPOGRAPHY
 --------------------------------------*/
-.external {
-  font-weight: bold;
-}
 .external > a{
-  color: white;
-  background-color: red;
+  background: #f03838;
+  color: #fefefe;
+  font-weight: bold;  
+ /* padding: 0.4em; */
 }
 .external > a:hover{
   background-color: #212121;
 }
 .internal {
   font-weight: bold;
+  text-transform: uppercase;
 }
 .internal > a{
-  color: red;
+  color: #f03838;
 }
 .internal > a:hover{
   color: #212121;
 }
+
+
 /*MARGINS
 --------------------------------------*/
 .m-a-1 {
@@ -127,16 +130,26 @@ footer > a > p {
   margin-right: 1em;
 }
 
+
 /*PADDINGS
 --------------------------------------*/
-.p-a-1 {
-  padding: 1em;
+.l-pad  /*link paddings*/{
+  padding-top: 0.2em;
+  padding-bottom: 0.3em;
+  padding-left: 0.6em;
+  padding-right: 0.6em;
 }
-.p-t-1 {
-  padding-top: 1em;
+.p-t-0-2 {
+  padding-top: 0.2em;
 }
-.p-b-1 {
-  padding-bottom: 1em;
+.p-b-0-3 {
+  padding-bottom: 0.3em;
+}
+.p-l-0-6 {
+  padding-left: 0.6em;
+}
+.p-r-0-6 {
+  padding-right: 0.6em;
 }
 .p-l-1 {
   padding-left: 1em;
@@ -154,21 +167,78 @@ footer > a > p {
 --------------------------------------*/
 
 
-/*LAYOUT
-----------------------------------------------------------------------------*/
-header {
-  border-bottom: 0.1em #212121 solid;
-}
-article > a {
-  display: flex;
-}
-footer {
-  background-color: #252525;
-  color: darkgray;
-}
-article {
-  border-bottom: dotted #212121 0.07em;
+/*MISC
+--------------------------------------*/
+.sep { /*seperator*/
+  display: inline-block;
+  margin: 0 0.5rem;
 }
 
+
+
+/*LAYOUT
+----------------------------------------------------------------------------*/
+/*How can i justify header and main at the center? */
+.page {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/*COMMON*/
+article a,
+footer {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+
+header {
+  border-bottom: 0.375em #303030 solid;
+  padding: 2.5em 0 1.250em;
+  margin-bottom: 1.250em;
+}
+header h1,
+header h2 {
+  text-transform: uppercase;
+}
+
+
+main {
+}
+
+/*ARTICLES*/
+article {
+  border-bottom: dotted #212121 0.07em;
+  font-size:  1.286em;
+}
+article a {
+  display: flex;
+  padding-top: 1.25em;
+  padding-bottom: 1.25em;
+  transition: padding .3s ease, background .3s ease, color .3s ease;
+}
+article a:hover {
+  padding-left: 2.5%;
+  background: #fcf5f5;
+  color: #f03838;
+}
+
+/*Header
+--------------------------------------*/
+header {
+  text-align: center;
+}
+
+/*Footer
+--------------------------------------*/
+footer {
+  text-align: center;
+  background: #303030;
+  color: #656565;
+  font-weight: 600;
+  font-family: "Open Sans", arial, sans-serif;
+  line-height: 1.8;
+}
 /*MEDIA QUERIES
 ----------------------------------------------------------------------------*/
