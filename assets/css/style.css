@@ -72,6 +72,7 @@ h3 {
 }
 header > p {
   text-transform: uppercase;
+  margin-bottom: 1.667em;
 }
 h1 {
   font-size: 3em;
@@ -95,7 +96,8 @@ footer > a > p {
   background: #f03838;
   color: #fefefe;
   font-weight: bold;  
- /* padding: 0.4em; */
+  font-size: 1em;
+  padding: 0.4em;
 }
 .external > a:hover{
   background-color: #212121;
@@ -103,9 +105,13 @@ footer > a > p {
 .internal {
   font-weight: bold;
   text-transform: uppercase;
+  margin-top: 1.750em;
+
 }
 .internal > a{
   color: #f03838;
+ 
+
 }
 .internal > a:hover{
   color: #212121;
@@ -125,6 +131,9 @@ footer > a > p {
 }
 .m-l-1 {
   margin-left: 1em;
+}
+.m-l-0-3 {
+  margin-left: .3em;
 }
 .m-r-1 {
   margin-right: 1em;
@@ -198,7 +207,7 @@ header {
   padding: 2.5em 0 1.250em;
   margin-bottom: 1.250em;
 }
-header h1,
+
 header h2 {
   text-transform: uppercase;
 }
