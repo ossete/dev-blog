@@ -100,16 +100,16 @@ footer > a > p {
   padding: 0.4em;
 }
 .external > a:hover{
-  background-color: #212121;
+  background-color: #121212;
 }
 .internal {
   font-weight: bold;
   text-transform: uppercase;
   margin-top: 1.750em;
-
 }
 .internal > a{
   color: #f03838;
+  margin: 0 .7em;
  
 
 }
@@ -251,6 +251,8 @@ footer {
   font-weight: 600;
   font-family: "Open Sans", arial, sans-serif;
   line-height: 1.8;
+  padding: 5em 0 6em;
+  margin-top: 6em;
 }
 /*MEDIA QUERIES
 ----------------------------------------------------------------------------*/
