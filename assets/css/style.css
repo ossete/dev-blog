@@ -92,14 +92,16 @@ footer > a > p {
 ----------------------------------------------------------------------------*/
 /*TYPOGRAPHY
 --------------------------------------*/
-.external > a{
+.external > a,
+.footer > a {
   background: #f03838;
   color: #fefefe;
   font-weight: bold;  
   font-size: 1em;
   padding: 0.4em;
 }
-.external > a:hover{
+.external > a:hover,
+.footer > a:hover {
   background-color: #121212;
 }
 .internal {
@@ -109,14 +111,15 @@ footer > a > p {
 }
 .internal > a{
   color: #f03838;
-  margin: 0 .7em;
- 
-
+  margin: 0.7em;
 }
 .internal > a:hover{
   color: #212121;
 }
-
+.footer > a {
+  font-size: .875em;
+  padding: px;
+}
 
 /*MARGINS
 --------------------------------------*/
@@ -201,7 +204,6 @@ footer {
   padding-right: 2%;
 }
 
-
 header {
   border-bottom: 0.375em #303030 solid;
   padding: 2.5em 0 1.250em;
@@ -213,20 +215,19 @@ header h2 {
 }
 
 
-main {
-}
-
 /*ARTICLES*/
 article {
   border-bottom: dotted #212121 0.07em;
   font-size:  1.286em;
 }
+
 article a {
   display: flex;
   padding-top: 1.25em;
   padding-bottom: 1.25em;
   transition: padding .3s ease, background .3s ease, color .3s ease;
 }
+
 article a:hover {
   padding-left: 2.5%;
   background: #fcf5f5;
@@ -238,6 +239,7 @@ article a:hover {
 header {
   text-align: center;
 }
+
 .page-title {
   margin: 0.3em 0;
 }
@@ -250,9 +252,13 @@ footer {
   color: #656565;
   font-weight: 600;
   font-family: "Open Sans", arial, sans-serif;
-  line-height: 1.8;
+  line-height: 1.8em;
   padding: 5em 0 6em;
   margin-top: 6em;
+}
+
+footer a {
+
 }
 /*MEDIA QUERIES
 ----------------------------------------------------------------------------*/

@@ -2,9 +2,11 @@
 My first project.
 This is my blog
 
-- footer should have full width
+###TO DO###
 - put language options to right top
 - make a template for mobile devices, small screens
+- add dark theme
+- add slow connection theme
   
 
 Questions
