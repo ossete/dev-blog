@@ -253,7 +253,7 @@ footer,
   font-weight: 600;
   font-family: "Open Sans", arial, sans-serif;
   line-height: 1.8em;
-  padding: 5em 0 6em;
+  padding: 5em 0 5em;
   margin-top: 6em;
 }
 
@@ -262,7 +262,7 @@ footer,
   margin: 0;
 }
 
-.footer-text a{
+.footer-text a {
   color: #656565;
   font-weight: 700;
 }
@@ -281,3 +281,18 @@ footer,
 
 /*MEDIA QUERIES
 ----------------------------------------------------------------------------*/
+/*  <!--for responsive: make small element block to display it in another line-->
+    <!--for responsive: make span invisible. display:none--> */
+
+@media (max-width: 600px) {
+  article a {
+    display: block;
+  }
+  /* .art-date {    This is not necessary. h tag is already a block element.
+    display: block;
+  } */
+  .sep {
+    display: none;
+  }
+ 
+}
