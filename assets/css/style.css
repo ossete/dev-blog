@@ -294,5 +294,11 @@ footer,
   .sep {
     display: none;
   }
- 
 }
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2em;
+  }
+}
+

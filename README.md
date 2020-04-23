@@ -1,10 +1,10 @@
 # dev-blog
 My first project.
-This is my blog
+This is my blog.
 
 ###TO DO###
+- add a hamburger menu
 - put language options to right top
-- make a template for mobile devices, small screens
 - add dark theme
 - add slow connection theme
   
@@ -14,7 +14,7 @@ Questions
  Which tag should i use for this, as a container?
 
  
-
+Some notes in turkish
 -Orjinal sitede body altinda iki tag var:
   .div: wrapper
   .footer
