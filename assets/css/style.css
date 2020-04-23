@@ -93,7 +93,7 @@ footer > a > p {
 /*TYPOGRAPHY
 --------------------------------------*/
 .external > a,
-.footer > a {
+.footer-nav a {
   background: #f03838;
   color: #fefefe;
   font-weight: bold;  
@@ -101,7 +101,7 @@ footer > a > p {
   padding: 0.4em;
 }
 .external > a:hover,
-.footer > a:hover {
+.footer a:hover {
   background-color: #121212;
 }
 .internal {
@@ -116,9 +116,8 @@ footer > a > p {
 .internal > a:hover{
   color: #212121;
 }
-.footer > a {
-  font-size: .875em;
-  padding: px;
+.footer a {
+  font-size: .875rem;
 }
 
 /*MARGINS
@@ -246,7 +245,8 @@ header {
 
 /*Footer
 --------------------------------------*/
-footer {
+footer,
+.footer-nav {
   text-align: center;
   background: #303030;
   color: #656565;
@@ -257,8 +257,27 @@ footer {
   margin-top: 6em;
 }
 
-footer a {
-
+.footer-text {
+  font-size: 0.875rem;
+  margin: 0;
 }
+
+.footer-text a{
+  color: #656565;
+  font-weight: 700;
+}
+.footer-text a:hover {
+  color: #FEFEFE;
+}
+.footer-nav {
+  margin: 0 0 2.188em 0;
+  padding: 0;
+}
+.footer p {
+  font-weight: 400;
+  margin: 0;
+  line-height: 1.8em;
+}
+
 /*MEDIA QUERIES
 ----------------------------------------------------------------------------*/

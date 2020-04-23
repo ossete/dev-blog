@@ -10,6 +10,11 @@ This is my blog
   
 
 Questions
+-In the footer I used "section" for links and copyright texts (p tags).
+ Which tag should i use for this, as a container?
+-How can I justify vertically the content in the middle of footer? 
+ 
+
 -Orjinal sitede body altinda iki tag var:
   .div: wrapper
   .footer
