@@ -3,6 +3,11 @@ My first project.
 This is my blog.
 
 ###TO DO###
+1) 
+- update "header-text p" color
+
+
+2)
 - add a hamburger menu
 - put language options to right top
 - add dark theme
@@ -19,5 +24,3 @@ Some notes in turkish
   .div: wrapper
   .footer
 Bu ikisi element secici ile bakildiginda, alanlari cakisiyor, ayni alani kullaniyor (mavi vurgulu gorunuyor) nasil mumkun oluyor
-
--

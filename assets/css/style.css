@@ -119,6 +119,11 @@ footer > a > p {
 .footer a {
   font-size: .875rem;
 }
+.header-text {
+  font-size: 0.875rem;
+  margin: 0;
+  color: #656565;
+}
 
 /*MARGINS
 --------------------------------------*/
@@ -241,6 +246,23 @@ header {
 
 .page-title {
   margin: 0.3em 0;
+}
+
+.header-text p {
+  text-align: center;
+  color: #aeb5ca;
+  font-weight: 600;
+  font-family: "Open Sans", arial, sans-serif;
+  line-height: 1.8em;
+  font-size: 0.875rem;
+}
+.header-text a {
+  color: #aeb5ca;
+  font-weight: 700;
+  font-size: 1em;
+}
+.header-text a:hover {
+  color: #f03838;
 }
 
 /*Footer
