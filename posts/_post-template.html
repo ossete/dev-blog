@@ -16,14 +16,14 @@
   <meta name="theme-color" content="#ffffff">
   <link rel="stylesheet" href="../assets/icons/icons.css">
   <link rel="stylesheet" href="../assets/css/style.css">
-  <title>Akif's Dev Blog</title>
+  <title>Post Template</title>
 </head>
-<!-- <body class="post"> -->
+
 <body class="index">
-<div class="page">
+  <div class="page">
   <header>
     <nav class="external">
-      <!-- <a class="l-pad" href="index.html">Akif's pages</a> -->      
+      <a class="l-pad" href="index.html">Akif's Blog</a>      
       <a class="l-pad m-l-0-3" href="https://twitter.com/theossete"><i class="icon-twitter1"></i></a>
       <a class="l-pad m-l-0-3" href="https://github.com/ossete"><i class="icon-github1"></i></a>
       <a class="l-pad m-l-0-3" href="https://www.linkedin.com/in/mehmet-akif-s-3b51681a1/"><i class="icon-linkedin1"></i></a>
@@ -31,62 +31,68 @@
       <a class="l-pad m-l-0-3" href="mailto:mehmetakifsakarya@gmail.com"><i class="icon-mail"></i></a>
     </nav>
     <nav class="internal">
-      <a href="../index.html">Blog</a>
-      <a href="../about.html">About</a>
+      <a href="#">Blog</a>
+      <a href="about.html">About</a>
     </nav>
-    <h1>MARKDOWN SYNTAX GUIDE</h1>
+    <h1 class="page-title">MARKDOWN SYNTAX GUIDE</h1>
     <p>SAMPLE ARTICLE SHOWCASING BASIC MARKDOWN SYNTAX AND FORMATTING FOR HTML ELEMENTS.</p>
-    <small>PUBLISHED MON, MAR 11, 2019 BY HUGO AUTHORS - ESTIMATED READING TIME: 3 MIN</small>
+    <section class="header-text">
+      <p>PUBLISHED MON, MAR 11, 2019 BY <a href="https://github.com/ossete">OSSETE</a></p>
+      <p>ESTIMATED READING TIME: 3 MIN</p>
+    </section>
   </header>
   <main>
     <section>
       <article>
-        <p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.</p>
-        <h3>Headings</h3>
-        <p>The following HTML h1—h6 elements represent six levels of section headings. h1 is the highest section level while h6 is the lowest.
-          H1
-          H2
-          H3
-          H4
-          H5
-          H6
-          Paragraph
-          Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.
-          
-          Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.</p>
+        <a href="posts/_post-template.html">
+          <h2 class="art-title">Article title</h2>
+          <span class="sep">/</span> <!--how can we undo ignoring the spaces, i need them -->
+          <small class="art-date">Published date</small>
+        </a>
+        <!--for responsive: make small element block to display it in another line-->
+        <!--for responsive: make span invisible. display:none-->
+      </article>
+      <article>
+        <a href="/posts/_post-template.html">
+          <h2>Markdown Syntax Guide</h2>
+          <span class="sep"> / </span> <!--how can we undo ignoring the spaces, i need them ;) -->
+          <small>Published Mon, Mar 11, 2019</small>
+        </a>
+      </article>
+      <article>
+        <a href="posts/_post-template.html">
+          <h2>Placeholder Text</h2>
+          <span class="sep">/</span> <!--how can we undo ignoring the spaces, i need them ;)-->
+          <small>Published Sat, Mar 9, 2019</small>
+        </a>
+      </article>
+      <article>
+        <a href="posts/_post-template.html">
+          <h2>Math Typesetting</h2>
+          <span class="sep">/</span> <!--how can we undo ignoring the spaces, i need them ;)-->
+          <small>Published Fri, Mar 8, 2019</small>
+        </a>
+      </article>
+      <article>
+        <a href="posts/_post-template.html">
+          <h2>Emoji Support</h2>
+          <span class="sep">/</span> <!--how can we undo ignoring the spaces, i need them ;)-->
+          <small>Published Tue, Mar 5, 2019</small>
+        </a>
       </article>
     </section>
   </main>
-  </div>
-  <footer class="external">
-    <a class="l-pad" href="./index.html">Akif's pages</a>
-    <a class="l-pad" href="">icon</a>
-    <p>&copy; 2020 / POWERED BY OSSETE</p>
-    <p>GHOSTWRITER THEME BY JOLLYGOODTHEMES / PORTED TO HUGO BY JBUB</p>
+  </div> 
+  <footer class="footer">
+    <section class="footer-nav">
+      <a class="l-pad" href="./index.html">Akif's Blog</a>
+      <a class="l-pad m-l-0-3" href="#"><i class="icon-keyboard_arrow_up"></i></a>
+    </section>
+    <section class="footer-text">
+      <p>&copy; 2020 / POWERED BY <a href="https://github.com/ossete">OSSETE</a></p>
+      <p>GHOSTWRITER THEME BY JOLLYGOODTHEMES / PORTED TO HUGO BY JBUB</p>
+    </section>
   </footer>
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-<!--
-    <figure>
-      <img src="" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
-    </figure>
-
-
-    <figure>
-      <img src="xxxx" alt="Akif's photo">
-      <figcaption>Legend of the photo</figcaption>
-    </figure>
--->
