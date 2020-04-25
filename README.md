@@ -4,7 +4,6 @@ This is my blog.
 
 ###TO DO###
 1) 
-- update "header-text p" color
 
 
 2)
