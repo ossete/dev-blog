@@ -4,7 +4,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width <!--show it full screen-->, initial-scale=1.0 <--when page loads zoom ratio will be 1.0-->">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
@@ -18,11 +18,11 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Akif's Dev Blog</title>
 </head>
-
-<body>
+<body class="index">
+  <div class="page">
   <header>
     <nav class="external">
-      <!-- <a class="l-pad" href="index.html">Akif's pages</a> -->      
+      <a class="l-pad" href="index.html">AKIF'S DEV BLOG</a>      
       <a class="l-pad m-l-0-3" href="https://twitter.com/theossete"><i class="icon-twitter1"></i></a>
       <a class="l-pad m-l-0-3" href="https://github.com/ossete"><i class="icon-github1"></i></a>
       <a class="l-pad m-l-0-3" href="https://www.linkedin.com/in/mehmet-akif-s-3b51681a1/"><i class="icon-linkedin1"></i></a>
@@ -30,7 +30,7 @@
       <a class="l-pad m-l-0-3" href="mailto:mehmetakifsakarya@gmail.com"><i class="icon-mail"></i></a>
     </nav>
     <nav class="internal">
-      <a href="index.html">Blog</a>
+      <a href="/index.html">Blog</a>
       <a href="about.html">About</a>
     </nav>
     <h1 class="page-title">Akif's Dev Blog</h1>
@@ -39,17 +39,54 @@
   <main>
     <section>
       <article>
-        <p>Akif's Blog</p>
-        <a href="">My social media links</a>
-        <a href="">You can download my CV from here</a>
+        <a href="posts/_post-template.html">
+          <h2 class="art-title">Article title</h2>
+          <span class="sep">/</span> <!--how can we undo ignoring the spaces, i need them -->
+          <small class="art-date">Published date</small>
+        </a>
+        <!--for responsive: make small element block to display it in another line-->
+        <!--for responsive: make span invisible. display:none-->
+      </article>
+      <article>
+        <a href="/posts/_post-template.html">
+          <h2>Markdown Syntax Guide</h2>
+          <span class="sep"> / </span> <!--how can we undo ignoring the spaces, i need them ;) -->
+          <small>Published Mon, Mar 11, 2019</small>
+        </a>
+      </article>
+      <article>
+        <a href="posts/_post-template.html">
+          <h2>Placeholder Text</h2>
+          <span class="sep">/</span> <!--how can we undo ignoring the spaces, i need them ;)-->
+          <small>Published Sat, Mar 9, 2019</small>
+        </a>
+      </article>
+      <article>
+        <a href="posts/_post-template.html">
+          <h2>Math Typesetting</h2>
+          <span class="sep">/</span> <!--how can we undo ignoring the spaces, i need them ;)-->
+          <small>Published Fri, Mar 8, 2019</small>
+        </a>
+      </article>
+      <article>
+        <a href="posts/_post-template.html">
+          <h2>Emoji Support</h2>
+          <span class="sep">/</span> <!--how can we undo ignoring the spaces, i need them ;)-->
+          <small>Published Tue, Mar 5, 2019</small>
+        </a>
       </article>
     </section>
   </main>
-  <footer class="external">
-    <a class="l-pad" href="./index.html">Akif's pages</a>
-    <a class="l-pad" href="">icon</a>
-    <p>&copy; 2020 / POWERED BY OSSETE</p>
-    <p>GHOSTWRITER THEME BY JOLLYGOODTHEMES / PORTED TO HUGO BY JBUB</p>
+  </div> 
+  <footer class="footer">
+    <section class="footer-nav">
+      <a class="l-pad" href="./index.html">AKIF'S DEV BLOG</a>
+      <a class="l-pad m-l-0-3" href="#"><i class="icon-keyboard_arrow_up"></i></a>
+    </section>
+    <section class="footer-text">
+      <p>&copy; 2020 / POWERED BY <a href="https://github.com/ossete">OSSETE</a></p>
+      <p>GHOSTWRITER THEME BY JOLLYGOODTHEMES / PORTED TO HUGO BY JBUB</p>
+    </section>
   </footer>
 </body>
 
