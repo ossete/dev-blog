@@ -4,7 +4,7 @@ This is my blog.
 
 ###TO DO###
 1) 
-
+- small screens: add paddings left-right 
 
 2)
 - add a hamburger menu
