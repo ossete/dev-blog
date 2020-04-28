@@ -1,19 +1,14 @@
+.container-exercice *{
+	margin: 0 auto;
+	text-align: center;
 
+}
 #div001 {
 	background: red;
 	width: 320px;
 	height: 320px;
 	box-sizing: border-box;
 	position: relative;
-}
-
-#div003{
-	background: white;
-	width: 200px;
-	height: 60px;
-	position: absolute;
-	top: 130px;
-	left: 60px;
 }
 
 #div002{
@@ -23,6 +18,15 @@
 	position: absolute;
 	top: 60px;
 	left: 130px;
+}
+
+#div003{
+	background: white;
+	width: 200px;
+	height: 60px;
+	position: absolute;
+	top: 130px;
+	left: 60px;
 }
 
 #div004{
