@@ -1,7 +1,5 @@
-.container-exercice *{
+.container-exercice > *{
 	margin: 0 auto;
-	text-align: center;
-
 }
 #div001 {
 	background: red;
