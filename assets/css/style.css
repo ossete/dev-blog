@@ -83,6 +83,12 @@ h1 {
 h3 {
   padding-bottom: 1em;
 }
+h4, ul {
+  font-weight: 600;
+}
+li {
+  font-weight: 400;
+}
 
 
 /*
