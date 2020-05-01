@@ -4,6 +4,7 @@ This is my blog.
 
 ###TO DO###
 1) 
+- modify a tags of post pages
 - small screens: add paddings left-right 
 
 2)
