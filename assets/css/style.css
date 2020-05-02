@@ -53,6 +53,16 @@ a:hover{
   background-color:rgba(255, 157, 100, 0.1 );
   /*opacity: 1;*/
 }
+
+.post-content a {
+  text-decoration: underline;
+  padding-left: 0;
+}
+.post-content a:hover {
+  background: #fcf5f5;
+  color: #f03838;
+  padding-left: 0;
+}
 /*FORM ELEMENTS
 --------------------------------------*/
 button {
