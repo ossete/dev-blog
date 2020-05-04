@@ -8,3 +8,8 @@ function themeBasic() {
 const body = document.querySelector('body');
 body.classList.remove('dark');
 } 
+
+
+// SET/GET Element Attributes
+// h1.setAttribute('id', 'main-header'); 
+// h1.removeAttribute('id');
