@@ -4,7 +4,7 @@ This is my blog.
 
 ###TO DO###
 1) 
-- modify a tags of post pages
+- button and a tags fonts should be same
 - small screens: add paddings left-right 
 
 2)

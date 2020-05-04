@@ -53,11 +53,23 @@ a:hover{
   background-color:rgba(255, 157, 100, 0.1 );
   /*opacity: 1;*/
 }
+
 /*FORM ELEMENTS
 --------------------------------------*/
 button {
   background: none;
   border: none;
+  /* font-family: "Open Sans", arial, sans-serif; */
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #f03838;
+  text-decoration: none;
+  outline: none;
+  font-size: 	0.875em;
+}
+
+button:hover{
+  color: #212121;
 }
 input, input:focus {
   border: none;
@@ -502,3 +514,139 @@ tr:nth-of-type(8) td{   GEREK KALMADI.
     background: white;
 }
 */
+
+
+/* DARK THEME TESTING PHASE
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+------------------------------------------------------------------------- */
+.dark {
+  background-color: #121212;
+  color: #f3ffbd; 
+}
+
+/*LINKS
+--------------------------------------*/
+.dark a {
+  color: #f3ffbd;
+}
+
+.dark a:hover{
+  color: #00adad;
+  background-color:rgba(255, 157, 100, 0.1 );
+}
+
+.dark .post-content a:hover {
+  background: #fcf5f5;
+  color: #00adad;
+}
+/*FORM ELEMENTS
+--------------------------------------*/
+.dark button {
+  background: none;
+  border: none;
+  /* font-family: "Open Sans", arial, sans-serif; */
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #00adad;
+  text-decoration: none;
+  outline: none;
+}
+
+.dark button:hover{
+  color: #f3ffbd;
+  background-color:rgba(255, 157, 100, 0.1 );
+
+}
+
+/*HELPER CLASSES
+----------------------------------------------------------------------------*/
+/*TYPOGRAPHY
+--------------------------------------*/
+.dark .external > a,
+.dark .footer-nav a {
+  background: #00adad;
+  color: #f3ffbd;
+}
+.dark .external > a:hover,
+.dark .footer a:hover {
+  background-color:rgba(255, 157, 100, 0.1 );
+}
+.dark .internal > a{
+  color: #00adad;
+}
+.dark .internal > a:hover{
+  color: #f3ffbd;
+}
+.dark .header-text {
+  color: #656565;
+}
+.dark .contact {
+  color: #424242;
+}
+.dark .contact:hover{
+  background-color: none;
+  background: #f3ffbd;
+  color: #00adad;
+}
+
+.dark header {
+  border-bottom: 0.375em #303030 solid;
+}
+
+/*ARTICLES*/
+
+.dark article a {
+  transition: padding .3s ease, background .3s ease, color .3s ease;
+}
+
+.dark > article a:hover {
+  padding-left: 2.5%;
+  background: #f3ffbd;
+  color: #00adad;
+}
+
+/*Header
+--------------------------------------*/
+
+.dark .header-text p {
+  color: #AEADAD;
+}
+.dark .header-text a {
+  color: #AEADAD;
+  font-weight: 700;
+  font-size: 1em;
+}
+.dark.header-text a:hover {
+  color: #00adad;
+}
+
+/*Footer
+--------------------------------------*/
+.dark footer,
+.dark .footer-nav {
+  text-align: center;
+  background: rgb(4, 0, 3);
+  color: #656565;
+}
+
+.dark .footer-text a {
+  color: #656565;
+  font-weight: 700;
+}
+.dark .footer-text a:hover {
+  color: #f3ffbd;
+}
+
+/* COLOR ALTERNATIVES */
+/* 03dac5
+04c9b5
+f3ffbd */
