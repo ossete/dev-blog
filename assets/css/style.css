@@ -68,7 +68,19 @@ a:hover{
 button {
   background: none;
   border: none;
+  /* font-family: "Open Sans", arial, sans-serif; */
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #f03838;
+  text-decoration: none;
+  outline: none;
+  font-size: 	0.875em;
 }
+
+button:hover{
+  color: #212121;
+}
+
 input, input:focus {
   border: none;
   outline: none;
@@ -100,7 +112,6 @@ li {
   font-weight: 400;
   padding-left: 1em;
 }
-
 
 /*
 footer > a > p {
@@ -365,3 +376,24 @@ footer,
   }
 }
 
+
+
+
+/* --------------------------------------------- */
+
+.dark {
+  background-color: #fc0;
+}
+
+/* const body = document.querySelector('body');
+//ADD or REMOVE A CLASS
+
+body.classList.add('dark');
+
+
+
+body.classList.remove('dark');
+
+SET/GET Element Attributes
+h1.setAttribute('id', 'main-header'); //bunu kullanarak dark theme ekle. body e id ekle.
+h1.removeAttribute('id'); */

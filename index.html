@@ -16,6 +16,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/icons/icons.css">
   <link rel="stylesheet" href="assets/css/style.css">
+  <script defer src="assets/js/script.js"></script>
   <title>Akif's Dev Blog</title>
 </head>
 <body class="index">
@@ -32,8 +33,12 @@
     <nav class="internal">
       <a href="index.html">Blog</a>
       <a href="about.html">About</a>
-      <a href="#">Dark Theme</a>
-      <a href="#">Basic Theme</a>
+      <button onclick="theme()">Dark Theme</button>
+      <button onclick="themeBasic()">Basic Theme</button>
+
+      <!-- <button onclick=assets/js/script.js/theme()>Theme</button> -->
+      <!-- <a href="theme()">Dark Theme</a>
+      <a href="#">Basic Theme</a> -->
     </nav>
     <h1 class="page-title">Akif's Dev Blog</h1>
     <p>Web development basics and code exemples</p>
@@ -111,6 +116,21 @@
       <p>GHOSTWRITER THEME BY JOLLYGOODTHEMES / PORTED TO HUGO BY JBUB</p>
     </section>
   </footer>
+
+
+
+  <script>
+  function theme() {
+  const body = document.querySelector('body');
+  body.classList.add('dark');
+  } 
+  function themeBasic() {
+  const body = document.querySelector('body');
+  body.classList.remove('dark');
+  } 
+  
+  </script>
+
 </body>
 
 </html>
