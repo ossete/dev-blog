@@ -4,14 +4,13 @@ This is my blog.
 
 ###TO DO###
 1) 
+- change theme buttons with a tags
 - button and a tags fonts should be same
 - small screens: add paddings left-right 
 
 2)
 - add a hamburger menu
 - put language options to right top
-- add dark theme
-- add slow connection theme
   
 
 Questions
