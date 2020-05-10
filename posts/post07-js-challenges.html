@@ -202,11 +202,30 @@
             };
           </code>
         </pre>
-        <p></p>
-        <p></p>
+        <p>Using the ternary operator create a condition who checks if today is Tuesday</p>
         <pre>
           <code class="language-js">
+            let day = new Date().getDay();
 
+            day == 2 ? "TRUE" : "FALSE";
+
+          </code>
+        </pre>
+        <p>Equality of 3 Values</p>
+        <p>Create a function that takes three integer arguments (a, b, c) and returns the amount of integers which are of equal value.</p>
+        <pre>
+          <code class="language-js">
+            function equal(a, b, c) {
+              if (a == b && b == c) {
+                return 3;
+              }
+              else if ( (a == b && a != c) || (b == c && a != c )  || (a == c && b != c ) ){
+                return 2;
+              }
+              else {
+                return 0;
+              }
+            }
           </code>
         </pre>
 
@@ -214,7 +233,6 @@
 
 
 
-        
 
         <p></p>
         <p></p>

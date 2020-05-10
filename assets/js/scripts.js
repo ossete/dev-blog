@@ -12,6 +12,8 @@ document.getElementById("darkTheme").onclick = function() {darkTheme()};
 document.getElementById("basicTheme").onclick = function() {basicTheme()};
 
 
+
+
 //This maybe an alternative
 // SET/GET Element Attributes
 // h1.setAttribute('id', 'main-header'); 
