@@ -228,19 +228,105 @@
             }
           </code>
         </pre>
+        <p>Strictly Increasing or Decreasing</p>
+        <p>Create a function that takes an array and determines whether it's strictly increasing, strictly decreasing, or neither.</p>
+        <pre>
+          <code class="language-js">
+            function check(arr) {
+              if (arr[0] < arr[1] && arr[1] < arr[2]) {
+                return "increasing"
+              }
+              else if (arr[0] > arr[1] && arr[1] > arr[2]) {
+                return "decreasing"
+              }
+              else {
+                return "neither"
+              }
+            }
+          </code>
+        </pre>
+        <p>JS Loops</p>
+        <p>Count genders</p>
+        <p>Create an array containing 6 persons, girls and boys. Each person should have 2 keys, name and gender.
+        Loop into the array and check how many girls and boys do you have. The output should be something like : "My list contains 2 girls and 4 boys"</p>
+        <pre>
+          <code class="language-js">
+            let group = [
+            {
+              name: "Princess",
+              gender: "female"
+            },
+            {
+              name: "Bashful",
+              gender:"male"
+            },
+            {
+              name:"Doc",
+              gender:"male"
+            },
+            {
+              name:"Grumpy",
+              gender:"male"
+            },
+            {
+              name:"Happy",
+              gender:"male"
+            },
+            {
+              name:"Sleepy",
+              gender:"male"
+            }
+          ]
 
+          let amountFemale = 0;
+          let amountMale= 0;
 
+          group.forEach(function(element){
+            if(element.gender === "male"){
+              amountMale++;
+            }else {
+              amountFemale++;
+            }
+          });
 
+          console.log(" My list contains " + amountFemale + " female and " + 
+          amountMale + " male." );
+          </code>
+        </pre>
+        <p>HTML DOM</p>
+        <p>In your HTML page, create an h1 title with any text content
+          Use your "DOM" knowledge to modify the h1 tag (in this order) :
+          <ul>
+            <li>Get the text content</li> 
+            <li>Change text content</li> 
+            <li>Add an id attribute with the value of main-title</li> 
+            <li>Add a class attribute with the value of title</li> 
+            <li>Each time you do something, display it into the console.</li> 
+          </ul>
+        </p>
+        <pre>
+          <code class="language-js">
+            // GETTING TEXT CONTENT
+            const h1 = document.querySelector('h1');
+            console.log(h1.innerHTML);
 
+            // CHANGING TEXT
+            h1.innerHTML = "This is the new content";
+            console.log(h1.innerHTML);
 
+            // ADDING ID AND CLASS
+            h1.setAttribute('id', 'main-title');
+            h1.setAttribute('class', 'title');
+          </code>
+        </pre>
 
-        <p></p>
+        <!-- <p></p>
         <p></p>
         <pre>
           <code class="language-js">
 
           </code>
-        </pre>
+        </pre> -->
 
        </article>
     </section>
