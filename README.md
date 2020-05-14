@@ -2,9 +2,9 @@
 My first project.
 This is my blog.
 
-To see the dynamic page apply these adresses:
-https://ossete.github.io/dev-blog2/
-https://github.com/ossete/dev-blog2
+To see the dynamic page apply these adresses: <br>
+- https://ossete.github.io/dev-blog2/
+- https://github.com/ossete/dev-blog2
 
 
 TO DO
