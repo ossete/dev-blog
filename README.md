@@ -2,11 +2,12 @@
 My first project.
 This is my blog.
 
-###TO DO###
----1--- 
-- small screens: add paddings left-right 
+To see the dynamic page apply these adresses:
+https://ossete.github.io/dev-blog2/
+https://github.com/ossete/dev-blog2
 
----2---
+
+TO DO
 - add a hamburger menu
 - put language options to right top
   
