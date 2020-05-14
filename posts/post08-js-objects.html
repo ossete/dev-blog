@@ -82,22 +82,37 @@
             };
           </code>
         </pre>
-    
-
-
-
         <p>
-        Template
+          As in the example below each "name: value" blocks named as "property".
         </p>
         <pre>
           <code class="language-js">
-            let temp = ["template"];
+            name    :"Jack",  // A property
+            lastName:"Brown", // Another property
           </code>
         </pre>
-
-
-
-
+        <p>To access a object property:
+        </p>
+        <pre>
+          <code class="language-js">
+            objectName.propertyName
+            //or
+            objectName["propertyName"]
+          </code>
+        </pre>
+        <p>Functions inside an objects are called "methods".</p>
+        <pre>
+          <code class="language-js">
+            let member = {  
+              name    :"Jack", 
+              lastName:"Brown", 
+              gender  :"male",
+              fullName:function() {
+                return this.name + " " + this.lastName;
+              }
+            };          
+          </code>
+        </pre>
       </article>
     </section>
   </main>
