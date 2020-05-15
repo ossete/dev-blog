@@ -1,3 +1,5 @@
+SOME NOTES FOR DEVELOPER
+
 QUESTIONS
 -How can i fix the footer to end of page
 
@@ -15,3 +17,9 @@ https://themes.gohugo.io/theme/simpleit-hugo-theme/
 (bundaki gibi banner-orta logo ve header menu konabilir)
 
 https://themes.gohugo.io//theme/bilberry-hugo-theme/about/
+
+TO DO
+- add a hamburger menu
+- put language options to right top
+  
+
